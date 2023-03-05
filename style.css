@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #333;
+  line-height: 1.5;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: linear-gradient(#a1d4c4, #1abac5);
+}
+
+.show-modal {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.75rem 3.5rem;
+  margin: 5rem 2rem;
+  border: none;
+  background-color: #fff;
+  color: #444;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.button1 {
+  position: absolute;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.75rem 3.5rem;
+  margin: 5rem 2rem;
+  border: none;
+  left: 3.5%;
+  top:15%;
+  background-color: #d146d1;
+  color: #f8f5f5;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.cont {
+  position: absolute;
+  top: 5%;
+  left: 30%
+}
+
+.title{
+  text-align: center;
+  color: black;
+
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+/* -------------------------- */
+/* CLASSES TO MAKE MODAL WORK */
+.pos {
+  position: absolute;
+}
+
+.main-panel{
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  height:110%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 30px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.sett-panel{
+  position: absolute;
+  top: 17%;
+  left: 5.5%;
+  /*transform: translate(-80%, -80%);*/
+  width: 10%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.label{
+  font-size: 20px;
+}
+
+.stat-label{
+  font-size: 15px;
+}
+
+.image-input{
+  position:absolute;
+  top:48%;
+  left: 20%;  
+}
+
+.saveb{
+  position:absolute;
+  top:90%;
+  left:25%;
+}
+
+.contimg {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 52%;
+  left:25%;
+}
+.line-h{
+  height: 1px;
+  background: rgb(5, 2, 2);
+  margin-top: 15rem;
+}
+
+.line-v{
+  position:absolute;
+  left:50%;
+  height: 500px;
+  border-left: 1px solid rgb(0, 0, 0);
+}
+
+.cont-panel{
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  height: 40%;
+  transform: translate(-80%, -80%);
+  width: 15%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 70%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}

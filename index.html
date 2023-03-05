@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal window</title>
+  </head>
+  <body>
+    <h1 class="head-title">BAUMGARTNER.</button>
+    
+    
+    <button class="show-modal"> Create New Game </button>
+
+    <div class="main-panel hidden">
+
+    </div>
+    <div class="cont-panel hidden">
+      <p class="cont"> Contestants </p>
+    </div>
+    <div class="modal">
+      <button class="close-modal">Start</button>
+      <h1 class="title">Create New Season</h1>
+      <div class="line-v"></div>
+      <label class="label">Number of Episodes: </label>
+      <input type="number" style="width:35px"></input>
+      <div class="line-h">      
+        <hr>
+      </div>  
+      <div>
+        <label class="label"> Name </label>
+        <input type="text" id="contname" style="width:65px"></input>
+        <br>
+        <label class="stat-label"> CHA </label>
+        <input id="contcha" type="number" max="15" min="1" style="width:35px"></input>
+        <br>
+        <label class="stat-label"> ATH </label>
+        <input type="number" id="contath" max="15" min="1"style="width:35px"></input>
+        <br>
+        <label class="stat-label"> CRE </label>
+        <input type="number" id="contcre" style="width:35px"></input>
+        <br>
+        <label class="stat-label"> STA </label>
+        <input type="number" id="contsta" style="width:35px"></input>
+        <br>
+        <label class="stat-label"> SOC </label>
+        <input type="number" id="contsoc" style="width:35px"></input>
+        <br>
+        <label class="stat-label"> LOG </label>
+        <input type="number" id="contlog" style="width:35px"></input>
+        <br>
+        <label class="stat-label"> Chaotic </label>
+        <input type="radio" name="playstyle" style="width:35px"></input>
+        <label class="stat-label"> Sly </label>
+        <input type="radio" name="playstyle" style="width:35px"></input>
+        <br>
+        <label class="stat-label"> Coop </label>
+        <input type="radio" name="playstyle" style="width:35px"></input>
+        <label class="stat-label"> Fair </label>
+        <input type="radio" name="playstyle" style="width:35px"></input>
+        <input type="file" id="cont-image-input" class="image-input"></input>
+        <div id="cont-image"></div>
+        <button class="saveb" id="saveb"> Submit </button>
+      </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

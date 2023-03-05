@@ -1,0 +1,13 @@
+Picture
+name
+charisma
+athleticism
+social intelligence
+logical intelligence
+creativity
+emotional stability
+play style
+relationships (default: 1)
+
+comeback episodes - #
+team challenges - yes or no
